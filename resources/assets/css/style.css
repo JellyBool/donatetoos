@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(/fonts/material.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.mdl-layout-title {
+    cursor: pointer;
+}
+.devicons-opensource {
+    font-size: 60px;
+    color: #4CAF50;
+}
+.android-drawer .devicons-opensource {
+    color: #ffffff;
+    position: absolute;
+    bottom: 16px;
+}
+.mdl-layout__header-row .mdl-navigation__link {
+    padding: 0px 16px;
+}
+#view-source .devicons-github_badge {
+    font-size: 30px;
+    position: absolute;
+    right: 55px;
+    top: 1px;
+}
+.logo-font {
+    color: #222;
+}
+.android-be-together-section {
+    height: 600px;
+}
+.mdl-layout__header-row > .mdl-navigation__link {
+    padding: 0 0;
+}
+.android-more-section {
+    padding: 40px 0;
+}
+.android-more-section .mdl-card__title {
+    color: #fff;
+    background: #4CAF50;
+}
+.mdl-card__actions .author {
+    float: right;
+}
+.mdl-card__menu .material-icons {
+    color: #fff;
+}
+a.mdl-card__title , .mdl-list__item {
+    text-decoration: none;
+    cursor: pointer;
+}
+.android-content .mdl-card__menu {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    z-index: 100;
+}
+.mdl-list__item{
+    padding: 0 16px 1px 16px;
+}
+.mdl-list__item--three-line{
+    height: 64px;
+}
+.demo-list-item.mdl-list .mdl-card__title{
+    padding: 1px 16px 1px 16px;
+}
+
+.filters .mdl-list__item {
+    min-height: 30px;
+}
+
+.members .mdl-list__item--three-line{
+    height: 100px;
+}
+
+.mdl-list__item--three-line.members .mdl-list__item-primary-content{
+    height: 75px;
+}
+.members .mdl-list__item-avatar{
+    height: 75px;
+    width: 75px;
+}
+.members .mdl-js-button {
+    text-transform: none;
+}
+.members .mdl-list__item-avatar{
+    border-radius: 3px;
+}
+.members .info {
+    margin-bottom: 0.6em;
+}
+.follow{
+    display: inline-block;
+    margin-top: 10px;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.btn-sm {
+    padding: 2px 10px;
+}
+.repos a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+.repos a.name{
+    color: rgba(0,0,0,.87);
+}
+ .github-button,  .github-count{
+    display: inline-block;
+    height: 18px;
+    padding: 0 5px;
+    color: #333;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
+ .github-button{
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.9);
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(top,#fcfcfc,#eee);
+    background-image: -moz-linear-gradient(top,#fcfcfc,#eee);
+    background-image: linear-gradient(to bottom,#fcfcfc,#eee);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee')";
+}
+ a.github-button {
+    text-decoration: none;
+    outline: 0;
+}
+ .github-button i,  .github-button span,  .github-count span {
+    line-height: 18px;
+    vertical-align: middle;
+     font-size:12px;
+}
+ .github-button i {
+    font-size: 14px;
+}
+ .github-button span {
+    padding-top: 1px;
+}
+ .github-count {
+    position: relative;
+    font-size: 10px;
+}
+ .github-count b,  .github-count i {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: -4px;
+    _font-size: 0;
+    _line-height: 0;
+    border: 4px solid;
+    _border-top-color: red!important;
+    _border-bottom-color: red!important;
+    _border-left-color: red!important;
+    _filter: chroma(color=red);
+}
+ .github-count b {
+    margin-right: 0;
+    border-color: transparent #d5d5d5 transparent transparent;
+}
+
+ .github-count i {
+    margin-right: -1px;
+    border-color: transparent #fff transparent transparent;
+}
+ .github-count span {
+    line-height: 18px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+ .github-button i.devicons{
+    font-size:18px;
+}

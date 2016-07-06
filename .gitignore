@@ -13,7 +13,6 @@ _ide_helper.php
 .env.example
 .phpcomplete_extended/
 cron.txt
-resources/assets/
 resources/views/errors/404.blade.php
 .phpintel/
 .phpintel
